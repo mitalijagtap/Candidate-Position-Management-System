@@ -39,19 +39,5 @@ public class CandidateController {
         }
 
     }
-//    @PatchMapping("/company/{id}")
-//    public ResponseEntity<?> updateCompanyPartially(
-//            @PathVariable Long id,
-//            @RequestBody JsonNode updates) {
-//        try {
-//            CompanyDTO updated = companyService.partialUpdateCompany(id, updates);
-//            return ResponseEntity.ok(updated);
-//        } catch (JsonMappingException e) {
-//            return ResponseEntity
-//                    .status(HttpStatus.BAD_REQUEST)
-//                    .body("Invalid JSON structure for update: " + e.getOriginalMessage());
-//        }
-//    }
-
 
 }
